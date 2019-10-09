@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Welcome
-description: "生活和工作中点点滴滴积累"
+description: "生活和工作中点点滴滴的积累"
 ---
 
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
-            {{ post.title }}
+            「{{post.classify}}」- {{ post.title }}
         </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">

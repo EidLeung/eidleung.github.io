@@ -13,12 +13,13 @@ future: true
 
 # SNS settings
 RSS: false
-#weibo_username: 
-#zhihu_username: 
+gmail_username: EidLYF@gmail.com
+weibo_username:
+zhihu_username:
 github_username: EidLeung
-#twitter_username: 
-#facebook_username: 
-#linkedin_username: 
+twitter_username:
+facebook_username:
+linkedin_username:
 
 
 
