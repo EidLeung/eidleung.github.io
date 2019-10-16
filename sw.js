@@ -1,7 +1,7 @@
 /* ===========================================================
  * sw.js
  * ===========================================================
- * Copyright 2016 @huxpro
+ * Copyright 2019 @EidLeung
  * Licensed under Apache 2.0
  * service worker scripting
  * ========================================================== */
@@ -17,13 +17,13 @@ const PRECACHE_LIST = [
   "./offline.html",
   "./js/jquery.min.js",
   "./js/bootstrap.min.js",
-  "./js/hux-blog.min.js",
+  "./js/eid-blog.min.js",
   "./js/snackbar.js",
-  "./img/icon_wechat.png",
-  "./img/avatar-hux.jpg",
+  "./img/eid_wechat.jpg",
+  "./img/avatar-eid-ny.jpg",
   "./img/home-bg.jpg",
   "./img/404-bg.jpg",
-  "./css/hux-blog.min.css",
+  "./css/eid-blog.min.css",
   "./css/bootstrap.min.css"
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css",
   // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3",
@@ -31,7 +31,7 @@ const PRECACHE_LIST = [
 ]
 const HOSTNAME_WHITELIST = [
   self.location.hostname,
-  "huangxuan.me",
+  "eid.me",
   "yanshuo.io",
   "cdnjs.cloudflare.com"
 ]
@@ -78,7 +78,6 @@ const endWithExtension = (req) => Boolean(new URL(req.url).pathname.match(/\.\w+
 //    .ext?blah -> !(sw 302 -> .ext/?blah -> gh 404) -> .ext?blah
 // If It's a navigation req and it's url.pathname isn't end with '/' or '.ext'
 // it should be a dir/repo request and need to be fixed (a.k.a be redirected)
-// Tracking https://twitter.com/Huxpro/status/798816417097224193
 const shouldRedirect = (req) => (isNavigationReq(req) && new URL(req.url).pathname.substr(-1) !== "/" && !endWithExtension(req))
 
 // The Util Function to get redirect URL
@@ -235,8 +234,6 @@ function sendMessageToAllClients(msg) {
  */
 function sendMessageToClientsAsync(msg) {
   // waiting for new client alive with "async" setTimeout hacking
-  // https://twitter.com/Huxpro/status/799265578443751424
-  // https://jakearchibald.com/2016/service-worker-meeting-notes/#fetch-event-clients
   setTimeout(() => {
     sendMessageToAllClients(msg)
   }, 1000)

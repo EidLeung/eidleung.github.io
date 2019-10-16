@@ -3,7 +3,7 @@ title: Eid
 SEOTitle: Eid 的博客
 header-img: img/home-bg.jpg
 email: EidLYF@gmail.com
-description: "描述描述描述。。。。。。。。。。。。。。。。。"
+description: "学习和工作中点点滴滴的积累"
 keyword: "Eid SA"
 url: "https://eidleung.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -60,7 +60,7 @@ kramdown:
 
 
 # Disqus settings
-#disqus_username: 
+disqus_username: EidLeung
 
 # Netease settings
 netease_comment: false
@@ -79,7 +79,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Just Be Yourself<br>一如既往，不忘初心！"
+sidebar-about-description: "Just Be Yourself!<br>一如既往，不忘初心！"
 sidebar-avatar: /img/avatar-eid-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 

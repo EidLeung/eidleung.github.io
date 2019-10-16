@@ -1,0 +1,13 @@
+<p align="right"><a href="#如何购买">购买专栏</a></p>
+
+
+
+###### 如何购买
+1. 扫描二维码
+	<div align="center">
+		<img src="/img/geekbang/JavaHXJS.jpg" alt="image-1" style="display: inline-block" />
+		<img src="/img/JTYK.jpg" alt="image-2" style="display: inline-block" />
+	</div>
+2. 点击链接  
+[极客时间-直连](https://time.geekbang.org/column/intro/82?code=wqicMOQ9-Q2wcge-KWtiLwcCnmYRqkgNFdiYR6iTSm4%3D)  
+[今天有课-红包](https://jika.nali.net/youke/coupon/getCouponList?sendUserId=17140)
