@@ -1,3 +1,5 @@
+广告：
+
 <body>
 <center><h1 class="title" id="character" >一如既往  不忘初心</h1></center>
 <script type="text/javascript">
@@ -9,7 +11,14 @@
         div.style.color=colorArr[i=(++i%colorArr.length)];
     }
 </script>
+<div align="center">
+	<img src="/img/ads/zx_pytm.jpg" width="300" heigh ="300" alt="图片名称" style="display: inline-block"/>
+</div>
+
 </body>
+<div align="center">
+	<img src="/img/ads/zx_pytm.jpg" width="300" heigh ="300" alt="图片名称" style="display: inline-block"/>
+</div>
 
 ## 初衷
 ---
@@ -28,3 +37,7 @@
 ## 展望
 &emsp;&emsp;在今后的日子里，**Eid**将在这里记录自己的点点滴滴。愿我们**一如既往，不忘初心**！
 ![不忘初心](/img/about-cx.jpg)
+
+<div align="center">
+	<img src="/img/ads/zx_pytm.jpg" width="300" heigh ="300" alt="图片名称" style="display: inline-block"/>
+</div>

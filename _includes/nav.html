@@ -1,4 +1,5 @@
 <!-- Navigation -->
+{% include click.html %}
 {% if page.nav-style == "invert" or page.header-style == "text" %}
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top invert">
 {% else %}
@@ -21,14 +22,14 @@
             <div class="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="{{ site.baseurl }}/">主页</a>
+                        <a href="{{ site.baseurl }}/">主 页</a>
                     </li>
                     {% for page in site.pages %}
                     {% if page.title and page.hide-in-nav != true %}
                     <li>
-                        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title-en }}</a>
+                        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title-short }}</a>
                     </li>
-                    {% endif %}
+                    {% endif %} 
                     {% endfor %}
                 </ul>
             </div>
@@ -89,4 +90,3 @@
         __EidNav__.close();
     })
 </script>
-{% include click.html %}

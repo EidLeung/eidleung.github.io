@@ -110,5 +110,9 @@ friends: [
         title: "樊登读书",
         href: "https://card.dushu.io/generalize/welcome/welcome.html?r=knl7ar6zs598d7vb&py=2&bookId=200000013",
         description: "樊登读书VIP通道"
+    },{
+        title: "品牌特卖会",
+        href: "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxfd76dbfcf2b7ee36&redirect_uri=http%3A%2F%2Fmall.xiangtuan.xyz%2Fapi%2Fmember%2FweixinAuth%3FredirectUrl%3Dhttps%253A%252F%252Fmall.xiangtuan.xyz%252F%2523%252Findex%253FshopId%253Dv4qxVbywpa%2526channel%253Dh5Mall%2526ut%253Dc%2526ud%253DvCU7y6DwnD%2526t%253D1571560258%2526connect_redirect%253D1&scope=snsapi_userinfo&state=1&response_type=code&connect_redirect=1#wechat_redirect",
+        description: "各大品牌特价促销"
     }
 ]
