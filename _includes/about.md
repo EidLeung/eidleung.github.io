@@ -1,5 +1,3 @@
-广告：
-
 <body>
 <center><h1 class="title" id="character" >一如既往  不忘初心</h1></center>
 <script type="text/javascript">
