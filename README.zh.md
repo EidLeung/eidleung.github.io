@@ -1,4 +1,4 @@
-# Hux blog 模板
+# 模板
 
 #### Keynote Layout
 
