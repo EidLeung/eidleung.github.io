@@ -3,7 +3,7 @@ layout:      post
 classify:    "极客时间"
 title:       "项目管理实战——基本常识"
 subtitle:    "网易内部项目管理心法"
-date:        2019-11-11
+date:        2019-11-15
 catalog:     true
 header-img: "img/geekbang/geekbang-main.jpg"
 header-img-credit: "@geekbang.org"
@@ -11,8 +11,7 @@ header-img-credit-href: "www.geekbang.org"
 author:      "EidLeung"
 tags:
     - 极客时间
-    - 管理
-    - 概念
+    - 项目管理
 ---
 
 <center><h1><b>基本常识</b></h1></center>
@@ -118,8 +117,10 @@ tags:
 ###### 如何购买
 1. 扫描二维码
 	<div align="center">
-		<img src="/img/geekbang/xmglsz.jpg" alt="image-1" style="display: inline-block" />
-		<img src="/img/JTYK.jpg" alt="image-2" style="display: inline-block" />
+		<a href="https://time.geekbang.org/column/intro/245?code=rvrp5O6PbCExl7JtTziZkko9WSu0CA6UZmrV9vfc18Y%3D">
+			<img src="/img/geekbang/xmglsz.jpg" width = "300" height = "300" alt="图片名称" style="display: inline-block"/>
+		</a>
+		<img src="/img/JTYK.jpg" width = "300" height = "300" alt="今天有课" style="display: inline-block"/>
 	</div>
 2. 点击链接  
 [极客时间-直连](https://time.geekbang.org/column/intro/245?code=rvrp5O6PbCExl7JtTziZkko9WSu0CA6UZmrV9vfc18Y%3D)  
