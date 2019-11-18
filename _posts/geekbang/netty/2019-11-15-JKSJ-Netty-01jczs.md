@@ -16,6 +16,7 @@ tags:
 
 <center><h1><b>Netty基础知识</b></h1></center>
 <p align="right"><a href="#如何购买">购买专栏</a></p>
+
 ## 1. Netty比JDK提供的NIO多做了哪些
 1. 支持常用的应用层协议
 2. 解决传输时的粘包、半包等问题
@@ -72,6 +73,7 @@ EventLoopGroup workerGroup = new NioEventLoopGroup();
 ServerBootstrap serverBootstrap = new ServerBootstrap();
 serverBootstrap.group(bossGroup, workerGroup);
 ```
+
 ## 5. 粘包和半包
 - 原因  
 发送的数据太小或太大
@@ -88,6 +90,7 @@ serverBootstrap.group(bossGroup, workerGroup);
 > MessagetoMessageDecoder
 
 `数据流 --> |1次|字节数组 --> |2次|Java对象`
+
 ## 7. Keepalive和Idle检测
 1. 开启Keepalive
 ```
@@ -100,6 +103,7 @@ bootstrap.childOption(NioChannelOption.of(StandardSocketOption.SO_KEEPALIVE),tru
 ch.pipeline().addLast("idleCheckHandler", new IdleStateHandler(
     0/*readerIdleTime*/, 20/*writerIdleTime*/, 0/*allIdleTime*/, TimeUnit.SECONDS));
 ```
+
 ## 8. Netty堆外内存
 ### 8.1. 池化
 1. 参数：`io.netty.allocator.type`
@@ -112,6 +116,7 @@ bootstrap.childOption(ChannelOption.ALLOCATOR, UnPooledByteBufAllocator.DEFAULT)
 //使用池化
 bootstrap.childOption(ChannelOption.ALLOCATOR, PooledByteBufAllocator.DEFAULT);
 ```
+
 ### 8.2. 堆内/外
 1. 参数：`io.netty.noPreferDirect`
 - `false` 使用堆外
@@ -123,6 +128,7 @@ bootstrap.childOption(ChannelOption.ALLOCATOR, PooledByteBufAllocator.DEFAULT);/
 //使用堆内内存
 bootstrap.childOption(ChannelOption.ALLOCATOR, new PooledByteBufAllocator(false));
 ```
+---
 
 ###### 如何购买
 1. 扫描二维码
