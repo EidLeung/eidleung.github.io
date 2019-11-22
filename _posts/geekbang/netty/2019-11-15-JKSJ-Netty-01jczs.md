@@ -128,8 +128,8 @@ bootstrap.childOption(ChannelOption.ALLOCATOR, PooledByteBufAllocator.DEFAULT);/
 //使用堆内内存
 bootstrap.childOption(ChannelOption.ALLOCATOR, new PooledByteBufAllocator(false));
 ```
----
 
+---
 ###### 如何购买
 1. 扫描二维码
 	<div align="center">
