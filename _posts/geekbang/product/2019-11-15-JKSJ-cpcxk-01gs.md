@@ -16,7 +16,6 @@ tags:
 
 <center><h1><b>概述</b></h1></center>
 <p align="right"><a href="#如何购买">购买专栏</a></p>
-
 ## 01. PM与PM
 `比解决方案更重要的，是要解决的问题。`
 
