@@ -1,3 +1,19 @@
+---
+layout:      post
+classify:    "分布式"
+title:       "分布式事务"
+subtitle:    "分布式事务解决方案"
+date:        2020-07-13
+catalog:     true
+header-img: "img/work/digital-gb.jpg"
+catalog:     true
+author:      "EidLeung"
+tags:
+    - 分布式
+    - 事务
+---
+
+
 # 一、[seata](http://seata.io/en-us/index.html)
 ```
 1. 只适用于内部系统直接的交互
