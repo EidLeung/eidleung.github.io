@@ -11,9 +11,12 @@ author:      "EidLeung"
 tags:
     - 分布式
     - 事务
+    - 分布式事务
 ---
 
-
+<div align="center">
+	<font size = 8><b>分布式事务</b></font>
+</div>
 # 一、[seata](http://seata.io/en-us/index.html)
 ```
 1. 只适用于内部系统直接的交互
