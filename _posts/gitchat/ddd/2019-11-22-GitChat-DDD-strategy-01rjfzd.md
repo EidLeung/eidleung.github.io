@@ -110,8 +110,6 @@ tags:
 		<a href="http://gitbook.cn/m/mazi/comp/column?columnId=5cdab7fb34b6ed1398fd8de7&sceneId=f52a3810af7511e992061554a506c6dc&utm_source=columninvitecard&utm_campaign=%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E8%AE%BE%E8%AE%A1%E5%AE%9E%E8%B7%B5%E5%90%88%E8%AE%A2%E7%89%88%EF%BC%88%E6%88%98%E7%95%A5%2B%E6%88%98%E6%9C%AF%EF%BC%89">
 			<img src="/img/gitchat/DDD/DDD.jpg" width = "300" height = "300" alt="图片名称" style="display: inline-block"/>
 		</a>
-		<img src="/img/JTYK.jpg" width = "300" height = "300" alt="今天有课" style="display: inline-block"/>
 	</div>
 2. 点击链接  
-[极客时间-直连](http://gitbook.cn/m/mazi/comp/column?columnId=5cdab7fb34b6ed1398fd8de7&sceneId=f52a3810af7511e992061554a506c6dc&utm_source=columninvitecard&utm_campaign=%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E8%AE%BE%E8%AE%A1%E5%AE%9E%E8%B7%B5%E5%90%88%E8%AE%A2%E7%89%88%EF%BC%88%E6%88%98%E7%95%A5%2B%E6%88%98%E6%9C%AF%EF%BC%89)  
-[今天有课-红包](https://jika.nali.net/youke/coupon/getCouponList?sendUserId=17140)
+[GitBook-直连](http://gitbook.cn/m/mazi/comp/column?columnId=5cdab7fb34b6ed1398fd8de7&sceneId=f52a3810af7511e992061554a506c6dc&utm_source=columninvitecard&utm_campaign=%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E8%AE%BE%E8%AE%A1%E5%AE%9E%E8%B7%B5%E5%90%88%E8%AE%A2%E7%89%88%EF%BC%88%E6%88%98%E7%95%A5%2B%E6%88%98%E6%9C%AF%EF%BC%89)  

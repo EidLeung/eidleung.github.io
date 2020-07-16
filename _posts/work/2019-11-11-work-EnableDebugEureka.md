@@ -16,7 +16,8 @@ tags:
 <div align="center">
 	<font size = 8><b>Eureka服务界面改造</b></font>
 </div>
-
+<center><h1><b>基本常识</b></h1></center>
+<p align="right"><a href="#如何购买">购买专栏</a></p>
 ## 1. 拷贝相应的文件到工程
 1. 将`spring-cloud-netflix-erueka-server`下`template.eureka`文件下拷贝在自己的`eureka`工程下。
 ![From](/img/work/eureka/sourceFrom.png)

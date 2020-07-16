@@ -129,8 +129,6 @@ tags:
 		<a href="https://time.geekbang.org/column/intro/245?code=rvrp5O6PbCExl7JtTziZkko9WSu0CA6UZmrV9vfc18Y%3D">
 			<img src="/img/geekbang/xmglsz.jpg" width = "300" height = "300" alt="图片名称" style="display: inline-block"/>
 		</a>
-		<img src="/img/JTYK.jpg" width = "300" height = "300" alt="今天有课" style="display: inline-block"/>
 	</div>
 2. 点击链接  
-[极客时间-直连](https://time.geekbang.org/column/intro/245?code=rvrp5O6PbCExl7JtTziZkko9WSu0CA6UZmrV9vfc18Y%3D)  
-[今天有课-红包](https://jika.nali.net/youke/coupon/getCouponList?sendUserId=17140)
+[极客时间](https://time.geekbang.org/column/intro/245?code=rvrp5O6PbCExl7JtTziZkko9WSu0CA6UZmrV9vfc18Y%3D)  
